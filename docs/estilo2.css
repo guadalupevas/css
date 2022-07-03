@@ -1,0 +1,79 @@
+/*selector universal*/
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+/*selector de etiqueta*/
+body {
+    background-image: url(https://st2.depositphotos.com/1389359/5838/i/600/depositphotos_58384543-stock-photo-starry-sky-in-winter-snowy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgba(0, 255, 157, 0.32);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.logo {
+    font-size: 20px;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    position: relative
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: darkkhaki;
+    display: block;
+}
+
+/*estilo de contenido principal*/
+main {
+    top: 70p;
+    background-color: #3c8dab49;
+    box-shadow: 2PX 5PX 20PX rgba(red, green, blue, alpha);
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*letra capital*/
+.letracapital::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+    color: maroon;
+    margin: 10px;
+}
+
+/*estilo para los h1 y h2*/
+section h1 article h2 {
+    text-align: center;
+    border-bottom: 2px solid rgb(20, 204, 20);
+}
+
+/* estilo para los parrafos dentro de la etiqueta*/
+section article p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 20px
+}
